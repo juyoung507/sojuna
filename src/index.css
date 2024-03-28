@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Before {
+  display: flex; /* Flexbox를 사용하여 요소들을 가로로 정렬합니다. */
+  justify-content: center; /* 아이템들을 수평 가운데 정렬합니다. */
+  align-items: center
+}
+
+.layout {
+  margin-top: 3%;
+}
+
+@font-face {
+  font-family: 'WAGURITTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: 'WAGURITTF';
+}
